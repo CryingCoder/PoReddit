@@ -1,0 +1,22 @@
+.Header
+{
+    font-family: "Gill Sans Extrabold", sans-serif;
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.main
+{
+    border: 2px dashed aliceblue;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    resize: both;    
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+    text-align: center;
+    background-color: indigo;
+    
+}

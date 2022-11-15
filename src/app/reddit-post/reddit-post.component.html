@@ -1,0 +1,11 @@
+<html class="Header">
+<h1 style="color: aliceblue ;" class="Header">Subreddit "/r/Aww"</h1>
+<div style="align-items:center;" *ngFor="let p of post.data.children" class="main">
+  <a style="color: aliceblue ;" href="https:reddit.com{{ p.data.permalink }}">
+    <p>{{ p.data.title }}</p>
+    <img src="{{ p.data.thumbnail }}" />
+  </a>
+  <p>Upvotes: {{ p.data.ups }}</p>
+  <p>Posted By: {{ p.data.author }} on /r/{{p.data.subreddit}}</p>
+</div>
+</html>
